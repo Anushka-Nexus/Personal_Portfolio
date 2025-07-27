@@ -37,6 +37,7 @@
   -Using colorhunt.com to select the color theme.
   -Here, I am gonna use some pastel shades to make it look minimal but i will use some dark color to 
    highlights the element.
+  -Using gradient colour in whole portfolio.
 
 #Typography
  -Using googlefonts.com for typography.
@@ -45,3 +46,4 @@
   Dribble.com
   Pintrest.com
   One Page Love
+
