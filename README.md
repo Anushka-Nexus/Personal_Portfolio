@@ -47,3 +47,6 @@
   Pintrest.com
   One Page Love
 
+#Inspiration taken as a reference from the site :-
+        https://dribbble.com/shots/25869909-Professional-Portfolio-Design
+
