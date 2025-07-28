@@ -156,25 +156,31 @@
      position: absolute;
      border: 1px solid white;
  }
+
  /* each phase */
- .webphase{
-      transform: rotateX(90deg) rotateY(130deg) translateZ(-10px);
+ .webphase {
+     transform: rotateX(90deg) rotateY(130deg) translateZ(-10px);
  }
- .figmaphase{
-    transform: rotateX(80deg) rotateY(45deg) translateZ(-10px);
+
+ .figmaphase {
+     transform: rotateX(80deg) rotateY(45deg) translateZ(-10px);
  }
- .bootstrapphase{
-    transform: rotateX(90deg) rotateY(0deg) translateZ(-10px);
+
+ .bootstrapphase {
+     transform: rotateX(90deg) rotateY(0deg) translateZ(-10px);
  }
+
  /* animation for the 3d element */
-  @keyframes rotating {
-              from {
-                 transform: rotateX(-20deg) rotateY(0deg);
-                 }
-              to {
-                 transform: rotateX(20deg) rotateY(360deg); 
-                }
-          }
+ @keyframes rotating {
+     from {
+         transform: rotateX(-20deg) rotateY(0deg);
+     }
+
+     to {
+         transform: rotateX(20deg) rotateY(360deg);
+     }
+ }
+
  .about .about-section-layout .about-text-container {
      flex-grow: 1;
  }
@@ -277,13 +283,21 @@
      top: 55%;
      border: 1px solid white;
  }
+
  /* carousal element */
- .carousal-container{
-     height: 350px;
+ .carousal-container {
+     height: 300px;
      width: 600px;
      position: relative;
      left: 45%;
      background-color: #050505;
+ }
+
+ .carousal-btn {
+     position: absolute;
+     top: 40%;
+     left: 1rem;
+
  }
 
  /* footer */
