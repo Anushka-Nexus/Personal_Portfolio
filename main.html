@@ -24,32 +24,35 @@
 <body>
     <header class="header">
         <div class="container-fluid">
-            <div class="container bg-badge2 rounded-4">
+            <div class="container  rounded-4">
                 <div class="navbar navbar-expand-md">
                     <div class="navbar-brand">
                         <div class="icon-container position-relative rounded-circle" style="height: 40px; width: 40px;">
                             <div
-                                class="bg-primary-heading rounded-circle w-100 h-100 d-inline-block d-flex justify-content-center align-items-center">
+                                class="bg-orange-clr rounded-circle w-100 h-100 d-inline-block d-flex justify-content-center align-items-center">
                                 <i class="main-icon fa-solid fa-laptop-code position-absolute d-inline-block"></i>
-                                <span class="main-font-style d-inline-block fs-4 opacity-75">Anushka<span
-                                        class="fs-3 main-font fw-bold text-primary-heading">-Nexus</span>
+                                <span class="main-font-style d-inline-block fs-4 ">Anushka<span
+                                        class="fs-3 main-font fw-bold main-heading-color" style="text-shadow: none  !important;">-Nexus</span>
                                 </span>
                             </div>
                         </div>
                     </div>
-                    <ul class="navbar-nav ms-auto d-flex align-items-center gap-4 me-5 main-font" data-bs-spy="scroll"
+                    <ul class=" navbar-nav ms-auto d-flex align-items-center gap-4 me-5 main-font" data-bs-spy="scroll"
                         data-bs-target="#section-nav">
-                        <li class="nav-item fs-6">
-                            <a href="#home-section" class="nav-link">Home</a>
+                        <li class="nav-item fs-6 font-color">
+                            <a href="#home-section" class="nav-link" style="color: white;">Home</a>
                         </li>
-                        <li class="nav-item fs-6">
-                            <a href="#about-section" class="nav-link">About</a>
+                        <li class="nav-item fs-6 font-color">
+                            <a href="#about-section" class="nav-link" style="color:white">About</a>
                         </li>
-                        <li class="nav-item fs-6">
-                            <a href="#skill-section" class="nav-link">Skill</a>
+                        <li class="nav-item fs-6 font-color">
+                            <a href="#skill-section" class="nav-link" style="color: white;">Skill</a>
                         </li>
-                        <li class="nav-item fs-6">
-                            <a href="#contact-section" class="nav-link">Contact</a>
+                        <li class="nav-item fs-6 font-color">
+                            <a href="#project-section" class="nav-link" style="color: white;">Project</a>
+                        </li>
+                        <li class="nav-item fs-6 font-color">
+                            <a href="#contact-section" class="nav-link" style="color: white;">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -58,29 +61,27 @@
     </header>
     <main id="section-nav">
         <!-- home-section -->
-        <section id="home-section" class="home" style="height: 80vh;">
-            <div class="heading main-font">
+        <section id="home-section" class="home" style="height: 100vh;">
+            <div class="heading main-font font-color">
                 <span>Hello! I'm</span>
                 <div class="name"><span>Anushka Mahendra Shende</span></div>
-                <div class="fs-4 ms-2 position-absolute opacity-75" style="top: 78%;">
+                <div class="fs-4 ms-2 position-relative opacity-100" style="top:-7%;">
                     <span>I'm Full-stack Developer</span>
                 </div>
             </div>
             <div class="tags">
                 <div class="bagde badge-custom fs-6 rounded-pill px-2 d-inline-block">
-                    <span>Web-Developer</span>
+                    <span >Web-Developer</span>
                 </div>
-                <div class="bagde badge-custom fs-6 rounded-pill px-2 d-inline-block"
-                    style=" background-color:rgba( var(--badge-rgb1),0.8);color: aliceblue;">
+                <div class="bagde badge-custom fs-6 rounded-pill px-2 d-inline-block" >
                     <span>UI/UX Designer</span>
                 </div>
-                <div class="bagde badge-custom fs-6 rounded-pill px-2 d-inline-block"
-                    style="width: 95px;color: antiquewhite;background-color: var(--primary-heading-clr);border: 1px solid var(--bg-light-clr);">
+                <div class="bagde badge-custom fs-6 rounded-pill px-2 d-inline-block" style="width: 95px;">
                     <span> Freelancer</span>
                 </div>
             </div>
-            <div class="tag-line main-font">
-                <span>Design that speaks, Code that Works..</span>
+            <div class="tag-line main-font tagline-color">
+                <span style="color: rgb(217, 236, 253);">Design that speaks, Code that Works..</span>
             </div>
             <a href="#contact-section">
                 <button class="btn cta-btn rounded-4 ">
@@ -94,31 +95,47 @@
         </section>
         <!-- about section -->
         <section id="about-section" class="about" style="height: 100vh;">
-            <div class="about-heading main-font fw-semibold">
+            <div class="about-heading main-font main-heading-color">
                 <center>My Expertise</center>
             </div>
-            <div class="about-tagline main-font">
-                <span>"What I Bring Isn't Just Skills - It's Soul in Every Pixel"</span>
-                <div style="margin-left: 5rem;"><span>"From Concept to Code I bring it all"</span></div>
+            <div class="about-tagline main-font font-color">
+                <center>"What I Bring Isn't Just Skills - It's Soul in Every Pixel"</center>
+                <div class="main-font font-color">
+                    <center>"From Concept to Code I bring it all"</center>
+                </div>
             </div>
             <div class="container about-section-layout d-flex gap-5 ">
                 <div class="container about-main-3d-box">
-                    <div class="main-3d-element">
+                    <div class="main-3d-element d-flex justify-content-center align-items-center">
                         <div class="phase webphase fs-2 text-light"
-                            style="  background-color:var(--primary-heading-clr);">WEB DEVELOPMENT</div>
-                        <div class="phase figmaphase fs-2 text-light" style="background-color: chocolate;"><span
+                            style="  background-color: blue !important;">WEB DEVELOPMENT</div>
+                        <div class="phase front fs-2 text-light" ><span
                                 class="mt-5">FIGMA</span></div>
-                        <div class="phase bootstrapphase fs-2 text-light" style="background-color: cornflowerblue;">
+                        <div class="phase back fs-2 text-light">
                             BOOTSTRAP</div>
+                       <div class="phase left fs-2 text-light" >
+                            UI PHASE</div>
+                        <div class="phase right fs-2 text-light" >
+                            Design</div>
+                        <div class="phase upper fs-2 text-light" >
+                            React</div>
+                        <div class="phase bottom fs-2 text-light" >
+                            Javascript</div>
+                        
+                       
                     </div>
                 </div>
                 <div class="container about-text-container">
-                    <div class="about-text-main main-font mt-5">
+                    <div class="about-text-main main-font mt-4 sub-headings">
                         <span>Building While I Learn</span>
                     </div>
-                    <div class="about-text-line main-font mt-4">
+                    <div class="about-text-line main-font mt-3 sub-text-color">
+                        <span>I'm currently learning Full Stack Web Development, focusing on building responsive
+                            websites and dynamic web applications. My journey includes mastering HTML, CSS, JavaScript,
+                            and exploring frameworks like Bootstrap and React, along with backend basics like Node.js
+                            and databases.</span>
                         <span>As I learn, I try to approach challenges creatively — finding solutions that work both
-                            technically and visually</span>
+                            technically and visually.</span>
                     </div>
                     <div class="about-list main-font mt-4">
                         <ul>
@@ -133,14 +150,17 @@
             </div>
         </section>
         <!-- skills section -->
-        <section id="skill-section" class="skill mt-5" style="height: 120vh;">
-            <div class="container-fluid">
+        <section id="skill-section" class="skill d-flex justify-content-center me-5 mt-5" style="height: 80vh;">
+            <div class="container-fluid  ">
                 <div class="container">
-                    <div class="skill-heading fw-semibold d-inline-block">
-                        <span>Skills & Tech</span>
+                    <div class="skill-heading main-font main-heading-color">
+                        <center>Skills</center>
                     </div>
-                    <div class="skill-tab rounded-4">
-                        <ul class="nav nav-tabs d-flex w-100 px-3" style="border: none !important;">
+                    <div class="skill-tagline main-font font-color" style="font-size: 1.4rem;">
+                        <center>"The Building Blocks of my Journey"</center>
+                    </div>
+                    <div class="skill-tab rounded-4 bg-secondary mt-4">
+                        <ul class="nav nav-tabs  d-flex  w-100 px-3" style="border: none !important;">
                             <li class="nav-item flex-grow-1">
                                 <button class="btn nav-link active custom-link-style rounded-3 w-100 main-font"
                                     data-bs-target="#webdev" data-bs-toggle="tab">WEB DEVELOPMENT</button>
@@ -171,8 +191,8 @@
                                             <div class="card shadow-lg">
                                                 <div class="row g-0" style="height: 100px;">
                                                     <div
-                                                        class="col-md-3 px-4 mt-4 ms-4 card-imgs rounded-circle d-flex justify-content-center align-items-center">
-                                                        <i class="fa-sharp fa-solid fa-code fs-2"></i>
+                                                        class="col-md-3 px-4 bg-orange mt-4 ms-4 card-imgs rounded-circle d-flex justify-content-center align-items-center">
+                                                        <i class="text-dark fa-sharp fa-solid fa-code fs-2"></i>
                                                     </div>
                                                     <div class="col-md-9 main-font fs-6 mt-4 ms-5">
 
@@ -208,8 +228,8 @@
                                             <div class="card shadow-lg">
                                                 <div class="row g-0" style="height: 100px;">
                                                     <div
-                                                        class="col-md-3 px-4 mt-4 ms-4 card-imgs rounded-circle d-flex justify-content-center align-items-center">
-                                                        <i class="fa-brands fa-figma fs-2"></i>
+                                                        class="col-md-3 px-4 bg-orange mt-4 ms-4 card-imgs rounded-circle d-flex justify-content-center align-items-center">
+                                                        <i class=" text-dark fa-brands fa-figma fs-2"></i>
                                                     </div>
                                                     <div class="col-md-9 main-font fs-6 mt-4 ms-5">
                                                         <span>
@@ -241,8 +261,8 @@
                                             <div class="card shadow-lg">
                                                 <div class="row g-0" style="height: 100px;">
                                                     <div
-                                                        class="col-md-3 px-4 mt-4 ms-4 card-imgs rounded-circle d-flex justify-content-center align-items-center">
-                                                        <i class=" fa-solid fa-c fs-2"></i>
+                                                        class="col-md-3 bg-orange px-4 mt-4 ms-4 card-imgs rounded-circle d-flex justify-content-center align-items-center">
+                                                        <i class="text-dark fa-solid fa-c fs-2"></i>
                                                     </div>
                                                     <div class="col-md-9 main-font fs-6 mt-4 ms-5">
                                                         <span>
@@ -283,8 +303,8 @@
                                             <div class="card shadow-lg">
                                                 <div class="row g-0" style="height: 100px;">
                                                     <div
-                                                        class="col-md-3 px-4 mt-4 ms-4 card-imgs rounded-circle d-flex justify-content-center align-items-center">
-                                                        <i class="fa-solid fa-code-compare fs-2"></i>
+                                                        class="bg-orange col-md-3 px-4 mt-4 ms-4 card-imgs rounded-circle d-flex justify-content-center align-items-center">
+                                                        <i class="text-dark fa-solid fa-code-compare fs-2"></i>
                                                     </div>
                                                     <div class="col-md-9 main-font fs-6 mt-4 ms-5">
                                                         <span>
@@ -323,8 +343,8 @@
                                             <div class="card shadow-lg">
                                                 <div class="row g-0" style="height: 100px;">
                                                     <div
-                                                        class="col-md-3 px-4 mt-4 ms-4 card-imgs rounded-circle d-flex justify-content-center align-items-center">
-                                                        <i class=" fa-solid fa-b fs-2"></i>
+                                                        class="col-md-3 px-4 mt-4 ms-4 bg-orange card-imgs rounded-circle d-flex justify-content-center align-items-center">
+                                                        <i class=" text-dark fa-solid fa-b fs-2 "></i>
                                                     </div>
                                                     <div class="col-md-9 main-font fs-6 mt-4 ms-5">
                                                         <span>
@@ -360,38 +380,112 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="mt-3">
-                                <div class="skill-heading fw-semibold d-inline-block" style="font-size:2.8rem;">
-                                    <span>UI PROJECTS</span>
-                                </div>
-                                <div class="carousal-container">
-                                    <div class="carousel slide carousel-fade" id="slides">
-                                        <div class="carousel-inner">
-                                            <div class="carousel-item active">
-                                                <div class="d-flex justify-content-center">
-                                                    <img class="img-fluid" src="/media/carousal-img/layout2.png" alt="ui designs project">
-                                                </div>
-                                            </div>
-                                            <div class="carousel-item">
-                                                <div class="d-flex justify-content-center">
-                                                    <img class="img-fluid" src="/media/carousal-img/layout3.png" alt="ui designs project">
-                                                </div>
-                                            </div>
-                                            <div class="carousel-item">
-                                                <div class="d-flex justify-content-center">
-                                                    <img class="img-fluid" src="/media/carousal-img/layout1.png" alt="ui designs project">
-                                                </div>
-                                            </div>
-                                        </div>
-                                          <button class="carousel-control-prev carousal-btn" data-bs-target="#slides" data-bs-slide="prev">
-                                               <span class="carousel-control-prev-icon  rounded-circle" style="height: 50px;width: 50px;"></span>
-                                          </button>
-                                         <button class="carousel-control-next carousal-btn ms-auto me-4" data-bs-target="#slides" data-bs-slide="next">
-                                               <span class="carousel-control-next-icon rounded-circle"  style="height: 50px;width: 50px;"></span>
-                                         </button>
-                                    </div>
+
                         </section>
 
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="project-section" class="project" style="height: 100vh;">
+            <div class="project-heading main-font main-heading-color" style="font-size: 3rem; font-weight: 600;">
+                <center>Projects</center>
+            </div>
+            <div class="project-tagline main-font font-color" style="font-size: 1.4rem;">
+                <center>" Responsive. Clean. Functional. "</center>
+            </div>
+            <div class="container-fluid mt-4">
+                <div class="container project-section px-4  rounded-4">
+                    <div class="carousel slide carousel-fade " data-bs-ride="carousel" id="project_slides">
+                        <!-- 1st page -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active d-flex gap-3 mt-3">
+                                <div class="card carousal-card ms-3 ">
+                                    <img src="/media/carousal-img/dummy_m1.png" alt="mock project"
+                                        class="img-fluid carousal-image-fit  mb-1">
+                                </div>
+                                <div class="card carousal-card">
+                                    <img src="/media/carousal-img/dummy_m2.png" alt="mock project"
+                                        class="img-fluid carousal-image-fit  mb-1">
+                                </div>
+                                <div class="card carousal-card">
+                                    <img src="/media/carousal-img/dummy_m3.png" alt="mock project"
+                                        class="img-fluid carousal-image-fit  mb-1">
+                                </div>
+                            </div>
+                            <!-- 2nd page -->
+                            <div class="carousel-item  d-flex gap-3 mt-3">
+                                <div class="card carousal-card ms-3 ">
+                                    <img src="/media/carousal-img/dummy_m4.png" alt="mock project"
+                                        class="img-fluid carousal-image-fit  mb-1">
+                                </div>
+                                <div class="card carousal-card">
+                                    <img src="/media/carousal-img/dummy_m5.png" alt="mock project"
+                                        class="img-fluid carousal-image-fit  mb-1">
+                                </div>
+                                <div class="card carousal-card">
+                                    <img src="/media/carousal-img/dummy_m6.png" alt="mock project"
+                                        class="img-fluid carousal-image-fit  mb-1">
+                                </div>
+                            </div>
+                            <!-- 3rd page -->
+                            <div class="carousel-item  d-flex gap-3 mt-3">
+                                <div class="card carousal-card ms-3 ">
+                                    <img src="/media/carousal-img/dummy_m7.png" alt="mock project"
+                                        class="img-fluid carousal-image-fit  mb-1">
+                                </div>
+                                <div class="card carousal-card">
+                                    <img src="/media/carousal-img/dummy_m8.png" alt="mock project"
+                                        class="img-fluid carousal-image-fit  mb-1">
+                                </div>
+                                <div class="card carousal-card">
+                                    <img src="/media/carousal-img/dummy_m9.png" alt="mock project"
+                                        class="img-fluid carousal-image-fit  mb-1">
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev b-sizing" data-bs-target="#project_slides"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon  rounded-circle"
+                                style="height: 50px;width: 50px;"></span>
+                        </button>
+                        <button class="carousel-control-next b-sizing" data-bs-target="#project_slides"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-next-icon  rounded-circle"
+                                style="height: 50px;width: 50px;"></span>
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="testimonials" style="height: 70vh;">
+            <div class="testimonial-heading main-font main-heading-color" style="font-size: 3rem; font-weight: 600;">
+                <center>Testimonials</center>
+            </div>
+            <div class="project-tagline main-font font-color" style="font-size: 1.4rem;">
+                <center>"Client Experience & Endorsements"</center>
+            </div>
+            <div class="container-fluid">
+                <div class="container testimonial-box px-5 mt-5 d-flex gap-3">
+                    <div class="testimonial-review-container rounded-4">
+                        <span class=" main-font fs-5 text-light p-5 d-flex justify-content-center ">
+                            "Absolutely loved the experience -sleek, professional, and super easy to use!Would
+                            definitely recommend it to anyone looking for qualify and style"
+                        </span>
+                    </div>
+                    <div class="testimonial-review-container rounded-4">
+                        <span class=" main-font fs-5 text-light p-5 d-flex justify-content-center">
+                            "Neat layout and fast loading. everything loads quickly and works smoothly on both desktop
+                            and mobile. the website is well structured and easy to go through "
+                        </span>
+                    </div>
+                    <div class="testimonial-review-container rounded-4">
+                        <span class=" main-font fs-5 text-light  p-5 d-flex justify-content-center">
+                            "Straightforward and easy to navigate . Liked the minimal approach. the site feels well
+                            organised and intuitive. didnt have to think twice while browsing through different
+                            sections"
+                        </span>
                     </div>
                 </div>
             </div>
@@ -401,15 +495,15 @@
         <section id="contact-section" class="contact" style="height: 100vh;">
             <div class="container-fluid">
                 <div class="container">
-                    <div class="contact-heading d-inline-block">
-                        <span>Let's Connect</span>
+                    <div class="contact-heading main-heading-color">
+                        <center> Let's Connect</center>
                     </div>
-                    <div class="contact-text mt-1 main-font fs-4" style="position: relative;left: 30%;">
-                        <span>"Got an idea or just want to connect? I'm all ears !"</span>
+                    <div class="contact-text mt-1 main-font fs-4 font-color">
+                        <center>"Got an idea or just want to connect? I'm all ears !"</center>
                     </div>
                     <div class="container-fluid">
                         <div class="container d-flex contact-container mt-5 gap-5">
-                            <div class="contact-info rounded-4 shadow-lg">
+                            <div class="contact-info rounded-4 shadow-lg sub-text-color">
                                 <div class=" d-flex gap-4 rounded-4 mt-5">
 
                                     <a href="mailto:shendeanushka1@gmail.com" class="email-info rounded-4 mt-4">
@@ -418,7 +512,7 @@
                                         </i>
                                     </a>
                                     <a href="mailto:shendeanushka1@gmail.com"
-                                        style="text-decoration: none; margin-top: 2.8rem;color:black;">
+                                        style="text-decoration: none; margin-top: 2.8rem;color:white;">
                                         <span class="main-font fs-5">shendeanushka1@gmail.com</span>
                                     </a>
 
@@ -431,7 +525,7 @@
                                         </i>
                                     </a>
                                     <a href="tel:9158491668"
-                                        style="text-decoration: none; margin-top: 2.8rem;color: black;">
+                                        style="text-decoration: none; margin-top: 2.8rem;color:white;">
                                         <span class="main-font fs-5">+91 9158491668</span>
                                     </a>
 
@@ -443,24 +537,24 @@
                                             style="margin-left:1.3rem; margin-top: .94rem; ">
                                         </i>
                                     </a>
-                                    <a href="#" style="text-decoration: none; margin-top: 2.8rem;color: black;">
+                                    <a href="#" style="text-decoration: none; margin-top: 2.8rem;color:white;">
                                         <span class="main-font fs-5">Nagpur, Maharashtra</span>
                                     </a>
 
                                 </div>
                             </div>
-                            <div class="contact-form flex-grow-1 rounded-5 shadow-lg">
+                            <div class="contact-form flex-grow-1 rounded-5 shadow-lg ">
                                 <form action="">
                                     <div class="container">
                                         <div class="row pt-4">
                                             <div class="col-md-6">
-                                                <label for="Name" class="fs-5 mb-3 ms-1">Name</label>
+                                                <label for="Name" class="fs-5 mb-3 ms-1 text-light">Name</label>
                                                 <input type="text" placeholder="Your Name" class="form-control"
                                                     id="Name" required>
                                             </div>
 
                                             <div class="col-md-6">
-                                                <label for="mail" class="fs-5 mb-3">Email</label>
+                                                <label for="mail" class="fs-5 mb-3 text-light">Email</label>
                                                 <input type="email" placeholder="Your Email" class="form-control"
                                                     id="mail" required>
 
@@ -468,21 +562,21 @@
                                         </div>
                                         <div class="row">
                                             <div class="col">
-                                                <label for="subject" class="fs-5 mt-3 ms-1">Subject</label>
+                                                <label for="subject" class="fs-5 mt-3 ms-1 text-light">Subject</label>
                                                 <input type="text" id="subject" placeholder="Subject of your message"
                                                     class="form-control mt-3">
                                             </div>
                                         </div>
                                         <div class="row pt-4">
                                             <div class="col">
-                                                <label for="message" class="fs-5 ms-1">Message</label>
+                                                <label for="message" class="fs-5 ms-1 text-light">Message</label>
                                                 <textarea class="form-control mt-3" rows="4"
                                                     placeholder="Your Message"></textarea>
                                             </div>
                                         </div>
 
                                         <div class="row px-3">
-                                            <button class="btn submit-btn mt-4">Submit</button>
+                                            <button class="btn submit-btn mt-4" style="background-color: rgb(0, 94, 255);">Submit</button>
                                         </div>
 
                                     </div>

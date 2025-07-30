@@ -1,24 +1,19 @@
 :root {
-    --bg-dark-clr: #f2e7fe;
-    --bg-light-clr: #EAD8FF;
-    --primary-heading-clr: #A855F7;
-    --secondary-clr: #7C3AED;
-    --ternary-clr: #4B5563;
-    --badge-clr1: #818CF8;
-    --badge-clr2: #E9D5FF;
-    --badge-clr3: #67E8F9;
-    --badge-clr4: #6EE7B7;
+    --bg-dark-clr: black;
+    --bg-light-clr: #ffffff;
+    --heading-org-clr : orange; 
+     --heading-clr : rgb(0, 94, 255) ;
+    --heading-text-clr : rgb(118, 120, 188);
+    --heading-clr-1 : green;
+   
 
     /* RGB Variables */
-    --bg-dark-rgb: 242, 231, 254;
-    --bg-light-rgb: 234, 216, 255;
+    --bg-dark-rgb: 0, 0, 0;
+    --bg-light-rgb: 255, 255, 255;
+    --heading-clr-rgb : 216,246,2;
     --primary-heading-rgb: 168, 85, 247;
-    --secondary-rgb: 124, 58, 237;
-    --ternary-rgb: 75, 85, 99;
-    --badge-rgb1: 129, 140, 248;
-    --badge-rgb2: 233, 213, 255;
-    --badge-rgb3: 103, 232, 249;
-    --badge-rgb4: 110, 231, 183;
+    --sub-heading-rgb :65,65,65;
+   
 }
 
 /* Background Colors */
@@ -29,34 +24,14 @@
 .bg-light-clr {
     background-color: var(--bg-light-clr);
 }
-
+.bg-orange-clr{
+    background-color: var(--heading-org-clr);
+}
 .bg-primary-heading {
-    background-color: var(--primary-heading-clr);
+    background-color: var(--heading-clr);
 }
 
-.bg-secondary-clr {
-    background-color: var(--secondary-clr);
-}
 
-.bg-ternary {
-    background-color: var(--ternary-clr);
-}
-
-.bg-badge1 {
-    background-color: var(--badge-clr1);
-}
-
-.bg-badge2 {
-    background-color: var(--badge-clr2);
-}
-
-.bg-badge3 {
-    background-color: var(--badge-clr3);
-}
-
-.bg-badge4 {
-    background-color: var(--badge-clr4);
-}
 
 /* Text Colors */
 .text-dark {
@@ -71,37 +46,16 @@
     color: var(--primary-heading-clr);
 }
 
-.text-secondary {
-    color: var(--secondary-clr);
-}
 
-.text-ternary {
-    color: var(--ternary-clr);
-}
-
-.text-badge1 {
-    color: var(--badge-clr1);
-}
-
-.text-badge2 {
-    color: var(--badge-clr2);
-}
-
-.text-badge3 {
-    color: var(--badge-clr3);
-}
-
-.text-badge4 {
-    color: var(--badge-clr4);
-}
 
 /* font-style */
 .main-font{
      font-family: "Noto Sans", sans-serif;
+     font-weight: 600;
 }
 /* body bg-color */
 
 body{
-    background: linear-gradient(65deg,var(--secondary-clr) 0%,var(--secondary-clr)5%,var(--secondary-clr) 10%,var(--badge-clr2) 60%,var(--bg-dark-clr) 75%,var(--primary-heading-clr)100%);
+    background-color: var(--bg-dark-clr) !important;
     overflow-x: hidden;
 }
