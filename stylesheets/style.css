@@ -5,7 +5,7 @@
 
  .main-heading-color {
      color: var(--heading-org-clr);
-     text-shadow: 0px 3.4px 2px rgb(245, 221, 173);
+     text-shadow: 0px 3px 2px rgb(245, 221, 173);
  }
 
  .tagline-color {
@@ -61,47 +61,29 @@
  }
 
  /* home section */
+ 
  .heading {
-     height: 280px;
-     width: 800px;
-     position: relative;
-     top: 10%;
-     left: 8%;
      font-size: 5rem;
      font-weight: 700;
-     line-height: 5rem;
+     line-height: 4.5rem;
  }
 
  .name {
-
      color: var(--heading-clr);
 
  }
+ .home-sec1{
+     flex-basis: 2000px !important;
+      /* border: 1px solid white;  */
+ } 
 
  /* tags */
- .tags {
-     height: 60px;
-     width: 700px;
-     position: relative;
-     top: 11%;
-     left: 8%;
- }
-
- .badge-custom {
-     height: 30px;
-     width: 130px;
-     color: var(--heading-org-clr);
-     /* border: 1px solid var(--heading-org-clr); */
-     border: 1px solid white;
- }
-
+ 
  .tag-line {
      height: 40px;
      width: 600px;
      font-size: 1.5rem;
-     position: relative;
-     top: 9%;
-     left: 15%;
+     margin-left: 170px;
  }
 
  /* call to action button */
@@ -109,9 +91,6 @@
      height: 40px;
      width: 140px;
      background-color: var(--bg-light-clr) !important;
-     position: relative;
-     top: 12%;
-     left: 10%;
      box-shadow: 0px 3px 5px var(--heading-clr);
  }
 
@@ -431,6 +410,22 @@
  }
 
  .form-control:focus {
-     box-shadow: 0 0 0 0.15rem rgba(65, 190, 86, 0.25) !important;
-     border-color: rgba(62, 176, 81, 0.5) !important;
+     box-shadow: 0 0 0 0.15rem rgba(22, 45, 198, 0.25) !important;
+     border-color: rgba(42, 7, 214, 0.5) !important;
+ }
+ input::placeholder{
+    color: rgba(203, 208, 209,0.6) !important;
+ }
+ textarea::placeholder{
+    color: rgba(203, 208, 209,0.6) !important;
+ }
+ .social-media-icons {
+    width: 40px;
+    height: 40px;
+    box-shadow: 0px 1px 10px rgb(13, 7, 205);
+   
+}
+.footer-heading-color {
+     color: var(--heading-org-clr);
+    
  }

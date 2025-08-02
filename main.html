@@ -24,7 +24,7 @@
 <body>
     <header class="header">
         <div class="container-fluid">
-            <div class="container  rounded-4">
+            <div class="container  rounded-4 " style="position: sticky; top: 0;">
                 <div class="navbar navbar-expand-md">
                     <div class="navbar-brand">
                         <div class="icon-container position-relative rounded-circle" style="height: 40px; width: 40px;">
@@ -32,7 +32,8 @@
                                 class="bg-orange-clr rounded-circle w-100 h-100 d-inline-block d-flex justify-content-center align-items-center">
                                 <i class="main-icon fa-solid fa-laptop-code position-absolute d-inline-block"></i>
                                 <span class="main-font-style d-inline-block fs-4 ">Anushka<span
-                                        class="fs-3 main-font fw-bold main-heading-color" style="text-shadow: none  !important;">-Nexus</span>
+                                        class="fs-3 main-font fw-bold main-heading-color"
+                                        style="text-shadow: none  !important;">-Nexus</span>
                                 </span>
                             </div>
                         </div>
@@ -61,40 +62,46 @@
     </header>
     <main id="section-nav">
         <!-- home-section -->
-        <section id="home-section" class="home" style="height: 100vh;">
-            <div class="heading main-font font-color">
-                <span>Hello! I'm</span>
-                <div class="name"><span>Anushka Mahendra Shende</span></div>
-                <div class="fs-4 ms-2 position-relative opacity-100" style="top:-7%;">
-                    <span>I'm Full-stack Developer</span>
+        <section id="home-section" class="home d-flex gap-5" style="height: 85dvh;">
+            <div class="container-fluid d-flex gap-5 justify-content-center align-items-center">
+                <div class="container home-sec1 ms-5">
+                    <div class="heading">
+                        <div class="text-light ms-4">Hello! I'm</div>
+                        <div class="name ms-4 "><span>Anushka Mahendra Shende</span></div>
+                        <h2 class="fs-4 ms-4 mt-1 text-light fw-semibold">
+                            I'm Full-stack Developer <br>
+                            <span
+                                class="mt-1 badge rounded-pill bg-dark border border-primary fw-normal align-middle fs-6">
+                                WEB DEVELOPER
+                            </span>
+                            <span
+                                class="mt-1 badge rounded-pill bg-dark border border-primary fw-normal align-middle fs-6">
+                                UI/UX DESIGNER
+                            </span>
+                            <span
+                                class="mt-1 badge rounded-pill bg-dark border border-primary fw-normal align-middle fs-6">
+                                PROGRAMMER
+                            </span>
+                        </h2>
+
+                    </div>
+                    <a href="#contact-section">
+                        <button class="btn cta-btn rounded-4 mt-5 ms-4">
+                            Get in Touch &nbsp;<i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </a>
+                </div>
+                <div class="container home-sec2">
+                    <div class="img-container rounded-3">
+                        <img src="/media/mypic.jpg" alt="" class="img-fluid h-100 w-100"
+                            style=" object-fit: cover !important; border: 2px solid var(--primary-heading-clr);">
+                    </div>
                 </div>
             </div>
-            <div class="tags">
-                <div class="bagde badge-custom fs-6 rounded-pill px-2 d-inline-block">
-                    <span >Web-Developer</span>
-                </div>
-                <div class="bagde badge-custom fs-6 rounded-pill px-2 d-inline-block" >
-                    <span>UI/UX Designer</span>
-                </div>
-                <div class="bagde badge-custom fs-6 rounded-pill px-2 d-inline-block" style="width: 95px;">
-                    <span> Freelancer</span>
-                </div>
-            </div>
-            <div class="tag-line main-font tagline-color">
-                <span style="color: rgb(217, 236, 253);">Design that speaks, Code that Works..</span>
-            </div>
-            <a href="#contact-section">
-                <button class="btn cta-btn rounded-4 ">
-                    Get in Touch &nbsp;<i class="fa-solid fa-arrow-right"></i>
-                </button>
-            </a>
-            <div class="img-container rounded-3">
-                <img src="/media/mypic.jpg" alt="" class="img-fluid h-100 w-100"
-                    style=" object-fit: cover !important; border: 2px solid var(--primary-heading-clr);">
-            </div>
+
         </section>
         <!-- about section -->
-        <section id="about-section" class="about" style="height: 100vh;">
+        <section id="about-section" class="about" style="height: 120vh;">
             <div class="about-heading main-font main-heading-color">
                 <center>My Expertise</center>
             </div>
@@ -107,22 +114,21 @@
             <div class="container about-section-layout d-flex gap-5 ">
                 <div class="container about-main-3d-box">
                     <div class="main-3d-element d-flex justify-content-center align-items-center">
-                        <div class="phase webphase fs-2 text-light"
-                            style="  background-color: blue !important;">WEB DEVELOPMENT</div>
-                        <div class="phase front fs-2 text-light" ><span
-                                class="mt-5">FIGMA</span></div>
+                        <div class="phase webphase fs-2 text-light" style="  background-color: blue !important;">WEB
+                            DEVELOPMENT</div>
+                        <div class="phase front fs-2 text-light"><span class="mt-5">FIGMA</span></div>
                         <div class="phase back fs-2 text-light">
                             BOOTSTRAP</div>
-                       <div class="phase left fs-2 text-light" >
+                        <div class="phase left fs-2 text-light">
                             UI PHASE</div>
-                        <div class="phase right fs-2 text-light" >
+                        <div class="phase right fs-2 text-light">
                             Design</div>
-                        <div class="phase upper fs-2 text-light" >
+                        <div class="phase upper fs-2 text-light">
                             React</div>
-                        <div class="phase bottom fs-2 text-light" >
+                        <div class="phase bottom fs-2 text-light">
                             Javascript</div>
-                        
-                       
+
+
                     </div>
                 </div>
                 <div class="container about-text-container">
@@ -150,7 +156,7 @@
             </div>
         </section>
         <!-- skills section -->
-        <section id="skill-section" class="skill d-flex justify-content-center me-5 mt-5" style="height: 80vh;">
+        <section id="skill-section" class="skill d-flex justify-content-center" style="height: 60dvh;">
             <div class="container-fluid  ">
                 <div class="container">
                     <div class="skill-heading main-font main-heading-color">
@@ -159,8 +165,8 @@
                     <div class="skill-tagline main-font font-color" style="font-size: 1.4rem;">
                         <center>"The Building Blocks of my Journey"</center>
                     </div>
-                    <div class="skill-tab rounded-4 bg-secondary mt-4">
-                        <ul class="nav nav-tabs  d-flex  w-100 px-3" style="border: none !important;">
+                    <div class="container skill-tab rounded-4 bg-secondary mt-3 px-2">
+                        <ul class="nav nav-tabs  d-flex  w-100 px-5" style="border: none !important;">
                             <li class="nav-item flex-grow-1">
                                 <button class="btn nav-link active custom-link-style rounded-3 w-100 main-font"
                                     data-bs-target="#webdev" data-bs-toggle="tab">WEB DEVELOPMENT</button>
@@ -209,14 +215,19 @@
                                                             capabilities.</span>
                                                     </div>
                                                 </div>
-                                                <div class="row" style="height: 60px; width: 100%;">
-                                                    <div class="col col-2 card-badge rounded-pill ps-3">HTML</div>
-                                                    <div class="col col-2 card-badge rounded-pill ps-4 ms-2"
-                                                        style="background-color: var(--bg-light-clr); color: rgb(70, 43, 226);border-color: rgb(43, 46, 226);">
-                                                        CSS</div>
-                                                    <div class="col col-2 card-badge rounded-pill ps-3 ms-2"
-                                                        style="width: 100px !important; background-color:rgba( var(--badge-rgb4),0.6);border-color: rgb(190, 235, 226);">
-                                                        Bootstrap</div>
+                                                <div class="row mt-4" style=" margin-left: 10%;">
+                                                    <span
+                                                        class="col col-1 mt-1 badge rounded-pill bg-dark border border-primary fw-normal align-middle">
+                                                        HTML
+                                                    </span>
+                                                    <span
+                                                        class="col col-1 mt-1 badge rounded-pill bg-dark border border-primary fw-normal align-middle ">
+                                                        CSS Style
+                                                    </span>
+                                                    <span
+                                                        class="col col-1 mt-1 badge rounded-pill bg-dark border border-primary fw-normal align-middle">
+                                                        BOOTSTRAP
+                                                    </span>
                                                 </div>
                                             </div>
                                         </div>
@@ -245,11 +256,13 @@
                                                         </span>
                                                     </div>
                                                 </div>
-                                                <div class="row" style="height: 60px; width: 100%;">
-                                                    <div class="col col-2 card-badge rounded-pill ps-3">Figma</div>
-                                                    <div class="col col-2 card-badge rounded-pill ps-3 ms-2"
-                                                        style="width: 130px !important;background-color: var(--bg-light-clr); color: rgb(70, 43, 226);border-color: rgb(43, 46, 226);">
-                                                        UI/UX Design</div>
+                                                <div class="row mt-4" style="margin-left: 10%;">
+                                                    <span
+                                                        class="col col-1 badge rounded-pill  bg-dark border border-primary align-middle fw-mormal">
+                                                        Figma</span>
+                                                    <div
+                                                        class="col col-1 badge rounded-pill bg-dark border border-primary align-middle fw-mormal">
+                                                        UI/UX </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -279,19 +292,19 @@
                                                         </span>
                                                     </div>
                                                 </div>
-                                                <div class="row" style="height: 60px; width: 100%;">
-                                                    <div class="col col-2 card-badge rounded-pill ps-3"
-                                                        style="width: 150px !important;background-color: var(--bg-light-clr); color: rgb(70, 43, 226);border-color: rgb(127, 180, 180);">
-                                                        C Programming
-                                                    </div>
-                                                    <div class="col col-2 card-badge rounded-pill ps-3 ms-2"
-                                                        style="width: 130px !important;">
+                                                <div class="row mt-4" style=" margin-left: 10%;">
+                                                    <span
+                                                        class="col col-1 mt-1 badge rounded-pill bg-dark border border-primary fw-normal align-middle">
+                                                        Programming
+                                                    </span>
+                                                    <span
+                                                        class="col col-1 mt-1 badge rounded-pill bg-dark border border-primary fw-normal align-middle ">
+                                                        Syntax
+                                                    </span>
+                                                    <span
+                                                        class="col col-1 mt-1 badge rounded-pill bg-dark border border-primary fw-normal align-middle">
                                                         Logic Builder
-                                                    </div>
-                                                    <div class="col col-2 card-badge rounded-pill ps-3 ms-2"
-                                                        style="width: 140px !important;background-color:rgba( var(--badge-rgb4),0.5); color:white;border-color:white;">
-                                                        Modular Code
-                                                    </div>
+                                                    </span>
                                                 </div>
                                             </div>
                                         </div>
@@ -301,7 +314,7 @@
                                     <div class="container-fluid mt-4">
                                         <div class="container px-5">
                                             <div class="card shadow-lg">
-                                                <div class="row g-0" style="height: 100px;">
+                                                <div class="row" style="height: 100px;">
                                                     <div
                                                         class="bg-orange col-md-3 px-4 mt-4 ms-4 card-imgs rounded-circle d-flex justify-content-center align-items-center">
                                                         <i class="text-dark fa-solid fa-code-compare fs-2"></i>
@@ -319,20 +332,21 @@
                                                         </span>
                                                     </div>
                                                 </div>
-                                                <div class="row" style="height: 60px; width: 100%;">
-                                                    <div class="col col-2 card-badge rounded-pill ps-3"
-                                                        style="width: 170px !important;background-color: var(--bg-light-clr); color: rgb(70, 43, 226);border-color: rgb(127, 180, 180);">
-                                                        C++ Programming
-                                                    </div>
-                                                    <div class="col col-2 card-badge rounded-pill ps-3 ms-2"
-                                                        style="width: 150px !important;">
-                                                        Syntax efficient
-                                                    </div>
-                                                    <div class="col col-2 card-badge rounded-pill ps-3 ms-2"
-                                                        style="width: 140px !important;background-color:rgba( var(--badge-rgb4),0.5); color:white;border-color:white;">
-                                                        Modular Code
-                                                    </div>
+                                                <div class="row mt-4" style=" margin-left: 10%;">
+                                                    <span
+                                                        class="col col-1 mt-1 badge rounded-pill bg-dark border border-primary fw-normal align-middle ">
+                                                        Programming
+                                                    </span>
+                                                    <span
+                                                        class="col col-1 mt-1 badge rounded-pill bg-dark border border-primary fw-normal align-middle ">
+                                                        Syntax
+                                                    </span>
+                                                    <span
+                                                        class="col col-1 mt-1 badge rounded-pill bg-dark border border-primary fw-normal align-middle">
+                                                        Modular code
+                                                    </span>
                                                 </div>
+
                                             </div>
                                         </div>
                                     </div>
@@ -361,19 +375,19 @@
                                                         </span>
                                                     </div>
                                                 </div>
-                                                <div class="row" style="height: 60px; width: 100%;">
-                                                    <div class="col col-2 card-badge rounded-pill ps-3"
-                                                        style="width: 110px !important;background-color: var(--bg-light-clr); color: rgb(70, 43, 226);border-color: rgb(127, 180, 180);">
+                                                <div class="row mt-4" style=" margin-left: 10%;">
+                                                    <span
+                                                        class="col col-1 mt-1 badge rounded-pill bg-dark border border-primary fw-normal align-middle ">
                                                         Bootstrap
-                                                    </div>
-                                                    <div class="col col-2 card-badge rounded-pill ps-3 ms-2"
-                                                        style="width: 90px !important;">
+                                                    </span>
+                                                    <span
+                                                        class="col col-1 mt-1 badge rounded-pill bg-dark border border-primary fw-normal align-middle ">
                                                         Utilities
-                                                    </div>
-                                                    <div class="col col-2 card-badge rounded-pill ps-3 ms-2"
-                                                        style="width: 220px !important;background-color:rgba( var(--badge-rgb4),0.5); color:white;border-color:white;">
-                                                        Component Customization
-                                                    </div>
+                                                    </span>
+                                                    <span
+                                                        class="col col-1 mt-1 badge rounded-pill bg-dark border border-primary fw-normal align-middle">
+                                                        Customization
+                                                    </span>
                                                 </div>
                                             </div>
                                         </div>
@@ -387,7 +401,7 @@
                 </div>
             </div>
         </section>
-        <section id="project-section" class="project" style="height: 100vh;">
+        <section id="project-section" class="project" style="height: 85dvh;">
             <div class="project-heading main-font main-heading-color" style="font-size: 3rem; font-weight: 600;">
                 <center>Projects</center>
             </div>
@@ -459,7 +473,7 @@
                 </div>
             </div>
         </section>
-        <section class="testimonials" style="height: 70vh;">
+        <section class="testimonials mt-4" style="height: 60dvh;">
             <div class="testimonial-heading main-font main-heading-color" style="font-size: 3rem; font-weight: 600;">
                 <center>Testimonials</center>
             </div>
@@ -467,7 +481,7 @@
                 <center>"Client Experience & Endorsements"</center>
             </div>
             <div class="container-fluid">
-                <div class="container testimonial-box px-5 mt-5 d-flex gap-3">
+                <div class="container testimonial-box px-5 mt-3 d-flex gap-3">
                     <div class="testimonial-review-container rounded-4">
                         <span class=" main-font fs-5 text-light p-5 d-flex justify-content-center ">
                             "Absolutely loved the experience -sleek, professional, and super easy to use!Would
@@ -576,7 +590,8 @@
                                         </div>
 
                                         <div class="row px-3">
-                                            <button class="btn submit-btn mt-4" style="background-color: rgb(0, 94, 255);">Submit</button>
+                                            <button class="btn submit-btn mt-4"
+                                                style="background-color: rgb(0, 94, 255);">Submit</button>
                                         </div>
 
                                     </div>
@@ -584,8 +599,38 @@
                             </div>
                         </div>
                     </div>
+
                 </div>
+
             </div>
+            <div class="container-fluid" style="background-color: rgba(128, 128, 128,0.2); opacity:85%;">
+                <h2 style="text-align: center;" class="mt-5 main-font footer-heading-color p-2">Contact for more Information</h2>
+            <div class="container-fluid  text-light">
+                <div class="container nav-color text-light  d-flex justify-content-center align-items-center gap-4"
+                    style="height: 70px;">
+                    <a
+                        href="https://www.figma.com/files/team/1467089766024167229/recents-and-sharing?fuid=1467089763872759300"><img
+                            src="./media/icons/layout-icons/figma-icon.png"
+                            class="social-media-icons rounded-circle position-relative "></img>
+                    </a>
+                    <a href="#"><img src="./media/icons/layout-icons/linkiden.png"
+                            class="social-media-icons rounded-circle position-relative "></img>
+                    </a>
+                    <a href="#"><img src="./media/icons/layout-icons/instagram.png"
+                            class="social-media-icons rounded-circle position-relative "></img>
+                    </a>
+                    <a href="https://www.pinterest.com"><img src="./media/icons/layout-icons/pinterest.png"
+                            class="social-media-icons rounded-circle position-relative "></img>
+                    </a>
+                    <a href="#"><img src="./media/icons/layout-icons/reddit.png"
+                            class="social-media-icons rounded-circle position-relative "></img>
+                    </a>
+
+                </div>
+
+            </div>
+            </div>
+
         </section>
     </footer>
 </body>
